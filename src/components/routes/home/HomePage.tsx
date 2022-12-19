@@ -56,7 +56,11 @@ export default function HomePage() {
       <h1 className="text-3xl m-4 text-center text-white">
         {settings.title}
       </h1>
+
       <div className="p-1 text-gray-300"> Updated {updateDesc}</div>
+      <div className="p-1 text-gray-300"> Want your data on this?
+        Go to <a href={"https://docs.google.com/forms/d/e/1FAIpQLSerVelWBvnpqpS2iOwzr3Wsl8URrT63KK2OuRQVDm9HkXlijg/viewform?usp=share_link"}>this</a> website and enter your connect code!
+        Ping realyze12#3914 in the discord once you're done and it'll be on there soon.</div>
       <Table players={players} />
       <div className="p-4 text-gray-300 flex flex-col">
         <div>Built by Raghav Pant (realyze12), with tons of help from blorppppp.</div>
