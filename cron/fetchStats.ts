@@ -9,7 +9,7 @@ import { exec } from 'child_process';
 const fs = syncFs.promises;
 const execPromise = util.promisify(exec);
 
-var playerCodes = ["LUDW#318","ROSE#554","LUDW#318","AVIV#825","NULL#620","ETB#104","TROZ#851","MKOA#756","FREE#0",
+var playerCodes = ["ROSE#554","LUDW#318","AVIV#825","NULL#620","ETB#104","TROZ#851","MKOA#756","FREE#0",
   "TORI#670","DUBL#605","MAJ#114","QUAI#496","ASHE#873","AAAA#445","DANG#139","KZR#171","MINE#788","PORK#582"];
 
 
