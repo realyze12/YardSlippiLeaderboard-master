@@ -9,9 +9,10 @@ import { exec } from 'child_process';
 const fs = syncFs.promises;
 const execPromise = util.promisify(exec);
 
-var playerCodes = ["ROSE#554","LUDW#318","AVIV#825","NULL#620","ETB#104","TROZ#851","MKOA#756","FREE#0",
-  "TORI#670","DUBL#605","MAJ#114","QUAI#496","ASHE#873","AAAA#445","DANG#139","KZR#171","MINE#788","PORK#582"];
+var playerCodes = new Set(["ROSE#554","LUDW#318","AVIV#825","NULL#620","ETB#104","TROZ#851","MKOA#756","FREE#0",
+  "TORI#670","DUBL#605","MAJ#114","QUAI#496","ASHE#873","AAAA#445","DANG#139","KZR#171","MINE#788","PORK#582"]);
 
+var playerCodes2 = Array.from(playerCodes);
 
 const getPlayerConnectCodes = async (): Promise<string[]> => {
   // const doc = new GoogleSpreadsheet(settings.spreadsheetID);
@@ -19,7 +20,7 @@ const getPlayerConnectCodes = async (): Promise<string[]> => {
   // await doc.loadInfo(); // loads document properties and worksheets
   // const sheet = doc.sheetsByIndex[0];
   // const rows = (await sheet.getRows()).slice(1); // remove header row
-  return playerCodes;
+  return playerCodes2;
 };
 
 const getPlayers = async () => {
