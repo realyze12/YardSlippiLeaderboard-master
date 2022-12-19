@@ -10,7 +10,7 @@ const fs = syncFs.promises;
 const execPromise = util.promisify(exec);
 
 var playerCodes = ["AAAA#445", "DANG#139", "KZR#171", "MINE#788", "PORK#582", "DEV#299", "MRBS#254",
-  "POG#781", "DELU#475", "TORI#670", "MAGE#708"];
+  "POG#781", "DELU#475", "TORI#670", "MAGE#708", "LUDW#318", "ROSE#554"];
 
 
 const getPlayerConnectCodes = async (): Promise<string[]> => {
