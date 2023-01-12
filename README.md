@@ -1,6 +1,6 @@
-# Colorado Ranked Slippi Leaderboard
+# Yardigan Ranked Slippi Leaderboard
 
-Code powering https://grantismo.github.io/CoSlippiLeaderboard/#/
+Code powering https://realyze12.github.io/YardSlippiLeaderboard-master/#/
 
 ## Technologies
 
@@ -23,7 +23,6 @@ The leaderboard is built from two programs:
 * The undocumented slippi api this depends on may break at any time
 * This project takes extra consideration to avoid slamming the slippi servers with api calls, please be considerate of this.
 * Logic for determining ranks may become out of sync with the official slippi rank logic
-* I'm missing svgs for Master ranks, lol
 
 ## Getting started
 
@@ -60,5 +59,3 @@ Example crontab:
 - `npm run deploy` – builds and deploys project to Github pages
 - `./cron/run.sh` - manually runs the cron job
 
-## Support me
-☕ [buy me a coffee](https://www.buymeacoffee.com/blorppppp)
