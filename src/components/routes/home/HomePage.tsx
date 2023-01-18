@@ -61,6 +61,8 @@ export default function HomePage() {
       <div className="p-1 text-gray-300"> Want your data on this?
         Go to <a href={"https://docs.google.com/forms/d/e/1FAIpQLSerVelWBvnpqpS2iOwzr3Wsl8URrT63KK2OuRQVDm9HkXlijg/viewform?usp=share_link"} className={"text-red-500"} >this</a> website and enter your connect code!
         Ping realyze12#3914 in the discord once you're done and it'll be on there soon.</div>
+
+      <div className="p-1 text-gray-300"> Want your games to be played on a project Free Palestine and I are working on? Send your slippi relplays (the .slp files) to <a href={"https://drive.google.com/drive/folders/1vRmLAObLprg8H6bTkEJbz-gx3P4ROBXr"} className={"text-red-500"} >this</a> link! Please send less than 200. </div>
       <Table players={players} />
       <div className="p-4 text-gray-300 flex flex-col">
         <div>Deployed by Raghav Pant (realyze12).</div>
